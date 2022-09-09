@@ -1,0 +1,15 @@
+12
+0 4
+1 9
+2 6
+3 10
+5 7
+8 11
+0
+
+    vector<line>vec;
+    vec.push_back({ v1,v2 });;  
+    for (auto it = vec.begin();it != vec.end();it++)
+    {
+        cout << "(" << it->first << "," << it->second << ")" << endl;
+    }
